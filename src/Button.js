@@ -12,3 +12,5 @@ const Button = ({w, h}) => {
       start
       </button>
 }
+
+export default Button
