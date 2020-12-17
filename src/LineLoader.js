@@ -1,7 +1,7 @@
 import LoadingContext from './LoadingContext'
 import React, {useContext} from 'react'
 const LineLoader = ({color, w, h}) => {
-    const sf = useContext(LoadingContext)
+    const {sf} = useContext(LoadingContext)
     const style = {
         background : color,
         position : 'absolute',

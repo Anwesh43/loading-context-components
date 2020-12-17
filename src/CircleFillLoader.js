@@ -1,7 +1,7 @@
 import LoadingContext from './LoadingContext'
 import React, {useContext} from 'react'
 const CircleFillLoader = ({w, h}) => {
-    const sf = useContext(LoadingContext)
+    const {sf} = useContext(LoadingContext)
     const size = Math.min(w, h) * 0.2 * sf 
     const style = {
         width : `${size}px`,
